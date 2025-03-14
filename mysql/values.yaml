@@ -1,4 +1,4 @@
 deployment:
-  version: 1.0.0
+  version: latest
   storage: 1Gi
   replicas: 3
