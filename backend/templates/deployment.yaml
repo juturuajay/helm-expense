@@ -24,7 +24,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: ajayreddyj/backend: {{ .Values.deployment.version }}
+        image: ajayreddyj/backend:{{ .Values.deployment.version }}
         envFrom:
         - configMapRef:
             name: backend
